@@ -1,0 +1,13 @@
+.text-slider {
+	display: none;
+}
+@keyframes show {
+	0% {opacity: 0;}
+	20% {opacity: 1;}
+	80% {opacity: 1;}
+	100% {opacity: 0;}
+}
+.text-slider.animate {
+	animation: show 8s linear;
+	display: block;
+}
